@@ -1,4 +1,4 @@
-package com.studywith_client;
+package kr.ac.kaist.cs350spring2023.team18.studywith;
 
 import android.app.Application;
 import com.facebook.react.PackageList;

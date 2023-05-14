@@ -93,9 +93,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.studywith_client"
+    namespace "kr.ac.kaist.cs350spring2023.team18.studywith"
     defaultConfig {
-        applicationId "com.studywith_client"
+        applicationId "kr.ac.kaist.cs350spring2023.team18.studywith"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

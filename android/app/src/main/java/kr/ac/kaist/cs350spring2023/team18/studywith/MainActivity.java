@@ -1,4 +1,4 @@
-package com.studywith_client;
+package kr.ac.kaist.cs350spring2023.team18.studywith;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
