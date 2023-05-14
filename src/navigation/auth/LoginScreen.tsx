@@ -47,19 +47,19 @@ const LoginScreen = ({navigation}: AuthStackScreenProps<'Login'>) => {
         </TouchableOpacity>
         <TouchableOpacity 
           style={styles.normalButton}
-          onPress={() => {}}>
+          onPress={() => navigation.navigate('Register')}>
             <Text>Register</Text>
         </TouchableOpacity>
       </View>
       <View style={styles.buttonView}>
         <TouchableOpacity 
           style={styles.linkButtonView}
-          onPress={() => {}}>
+          onPress={() => navigation.navigate('FindUsername')}>
             <Text style={styles.linkText}>Find Username</Text>
         </TouchableOpacity>
         <TouchableOpacity 
           style={styles.linkButtonView}
-          onPress={() => {}}>
+          onPress={() => navigation.navigate('ResetPassword')}>
             <Text style={styles.linkText}>Reset Password</Text>
         </TouchableOpacity>
       </View>

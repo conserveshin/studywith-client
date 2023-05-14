@@ -13,6 +13,9 @@ export type RootStackScreenProps<T extends keyof RootStackParameterList> =
 
 export type AuthStackParameterList = {
   Login: undefined;
+  Register: undefined;
+  FindUsername: undefined;
+  ResetPassword: undefined;
 }
 
 export type AuthStackScreenProps<T extends keyof AuthStackParameterList> =
