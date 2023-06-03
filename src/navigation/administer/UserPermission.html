@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <title>UserPermission</title>
+      <style>
+         p{
+            font-size: 40px;
+            font-weight: bold;
+            margin-left: 10px;
+         }
+         table {
+            width: 50em;
+            border:1px solid black;
+            border-collapse:collapse;
+            caption-side:bottom;
+            margin-top: 55px;
+         }
+         td, th {
+            border: 1px dotted rgb(18, 5, 5);
+            text-align: center;
+            padding:10px 20px;
+         }
+         th{
+            height: 40px;
+            background-color: rgba(88, 88, 218, 0.779);
+            color: white;
+         }
+         div {
+            height: 40px;
+            width: 400px;
+            border: 1px solid #1b5ac2;
+            margin: 10px;
+            background: #ffffff;
+         }
+         div input {
+            font-size: 16px;
+            width: 325px;
+            padding: 10px;
+            border: 0px;
+            outline: none;
+            float: left;
+         }
+         button {
+            width: 50px;
+            height: 100%;
+            border: 0px;
+            background: #1b5ac2;
+            outline: none;
+            float: right;
+            color: #ffffff;
+         }
+         td input {
+            margin-left: 45px;
+         }
+         img {
+            width: 35px;
+         }
+      </style>
+   </head>
+   <body>
+      <p>User Permission</p>
+      <form>
+         <div>
+            <input type="text" placeholder="Search User ID">
+            <button><img src="image/search_icon.jpg" alt=""></button>
+      </form>
+      <table>
+         <tr>
+            <th style="width: 60%; font-size: larger;">User ID</th>
+            <th style="width: 20%;">Permission to Create</th>
+            <th style="width: 20%;">Permission to Participate</th>
+         </tr>
+         <tr>
+            <td>Member1</td>
+            <td><input type="checkbox" checked="checked" style="width:30px"></td>
+            <td><input type="checkbox" checked="checked" style="width:30px"></td>
+         </tr>
+         <tr>
+            <td>Member2</td>
+            <td><input type="checkbox" checked="checked" style="width:30px"></td>
+            <td><input type="checkbox" checked="checked" style="width:30px"></td>
+         </tr>
+         <tr>
+            <td>Member3</td>
+            <td><input type="checkbox" checked="checked" style="width:30px"></td>
+            <td><input type="checkbox" checked="checked" style="width:30px"></td>
+         </tr>
+         <tr>
+            <td>Member4</td>
+            <td><input type="checkbox" checked="checked" style="width:30px"></td>
+            <td><input type="checkbox" checked="checked" style="width:30px"></td>
+         </tr>
+      </table>
+   </body>
+</html>
